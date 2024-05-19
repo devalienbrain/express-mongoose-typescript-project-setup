@@ -31,17 +31,19 @@ Copy code
     // Other configurations as needed
   }
 }
-Project Structure
-Create a src folder.
-Inside the src folder, create two files: app.ts and server.ts.
-MongoDB Atlas Setup
-Go to MongoDB Atlas and create a new cluster if you haven't already.
-Click Connect, then select Drivers, and copy the connection string to your .env file.
-Create a new user:
-Navigate to Database Access and click ADD NEW DATABASE USER.
-Set the role to atlasAdmin.
-Create .env File
-Add your MongoDB connection string and other environment variables:
+
+##Project Structure
+-Create a src folder.
+-Inside the src folder, create two files: app.ts and server.ts.
+
+##MongoDB Atlas Setup
+-Go to MongoDB Atlas and create a new cluster if you haven't already.
+-Click Connect, then select Drivers, and copy the connection string to your .env file.
+-Create a new user:
+-Navigate to Database Access and click ADD NEW DATABASE USER.
+-Set the role to atlasAdmin.
+-Create .env File
+-Add your MongoDB connection string and other environment variables:
 php
 Copy code
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
